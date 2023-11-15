@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Form</title>
+    <style>
+        h3{
+            font-weight: bold;
+            color:brown;
+        }
+        .tx-red{
+            color: red;
+        }
+        .tx-blue{
+            color:blue;
+        }
+        .bg-blue{
+            background-color: lightskyblue;
+        }
+        .bg-cyan{
+            background-color:lightcyan;
+        }
+        .bg-pink{
+            background-color:lightpink;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>HR Form</h3>
+        <div class="box bg-blue">
+            <fieldset>
+                <legend>HR Form</legend>
+                <form action="" class="bg-cyan">
+                    <p>
+                        <label for="name">&nbsp;&nbsp;姓名</label>
+                        <input type="text" id="name" value="請輸入姓名">
+                    </p>
+                    <p>
+                        <label for="tel">&nbsp;&nbsp;電話</label>
+                        <input type="text" id="tel" value="請輸入電話號碼">
+                    </p>
+                    <p>
+                        <label for="addr">地址</label>
+                        <textarea name="myAddr" id="" cols="40" rows="3">
+                        </textarea>
+                    </p>
+                    <p>
+                        <label for="select">下拉選單</label>
+                        <select name="mySelect" id="mySelect">
+                            <option value="s1">s1</option>
+                            <option value="s2">s2</option>
+                            <option value="s3">s3</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="radio">單選</label>
+                        <input type="radio" name="myRadio" id="item1">
+                        <label for="item1">item1</label>
+                        <input type="radio" name="myRadio" id="item2">
+                        <label for="item2">item2</label>
+                        <input type="radio" name="myRadio" id="item3">
+                        <label for="item3">item3</label>
+                    </p>
+                    <p>
+                        <label for="myCheckbox">多選</label>
+                        <input type="checkbox" name="myCheckbox" id="check1">
+                        <label for="check1">check1</label>
+                        <input type="checkbox" name="myCheckbox" id="check2">
+                        <label for="check2">check2</label>
+                        <input type="checkbox" name="myCheckbox" id="check3">
+                        <label for="check3">check3</label>
+                    </p>
+                    <p>
+                        <label for="remark">地址</label>
+                        <textarea name="myRemark" id="" cols="80" rows="4">
+                        </textarea>
+                    </p>
+                    <p>
+                        <label for="submit">submit</label>
+                        <input type="submit" value="submit"  class="tx-blue">
+                    </p>
+                    <p>
+                        <label for="reset">reset</label>
+                        <input type="reset" value="reset" class="tx-red">
+                    </p>
+                </form>
+            </fieldset>
+        </div>
+    </div>
+
+</body>
+
+</html>
